@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.spec</groupId>
+  <artifactId>myapp-spring</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+	 <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+  </properties>
+  
+    <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <artifactId>maven-resources-plugin</artifactId>
+              <version>2.7</version>
+            </plugin>           
+          </plugins>
+        </pluginManagement>   
+    </build>
+  
+  </project>
